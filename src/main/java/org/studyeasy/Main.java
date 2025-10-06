@@ -11,12 +11,12 @@ public class Main {
         dll.insertValue(13,4);
         System.out.println(dll.tail.value);
         System.out.println(dll.head.value);
-    dll.traverse();
-//        dll.reverse();
-//        dll.searchValue(7);
-//        dll.deleteValue(1);
-//        dll.traverse();
-//        dll.deleteDLL();
-//        dll.traverse();
+    dll.traverseDLL();
+        dll.reverse();
+        dll.searchValue(7);
+        dll.deleteValue(1);
+        dll.traverseDLL();
+        dll.deleteDLL();
+        dll.traverseDLL();
     }
 }

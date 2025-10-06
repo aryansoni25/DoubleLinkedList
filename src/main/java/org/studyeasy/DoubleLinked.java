@@ -48,7 +48,7 @@ public class DoubleLinked {
         }
     }
 
-    public void traverse(){
+    public void traverseDLL(){
         if(head!=null){
             Node temp=head;
             int index=0;
