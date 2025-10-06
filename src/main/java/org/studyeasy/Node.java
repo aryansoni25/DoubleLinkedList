@@ -1,7 +1,7 @@
 package org.studyeasy;
 
 public class Node {
-    public int value;
-    public Node next;
-    public Node previous;
+     int value;
+     Node next;
+     Node previous;
 }

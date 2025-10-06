@@ -5,12 +5,12 @@ public class DoubleLinked {
     public int size;
 
     public Node createDLL(int nodeValue){
-        Node node=new Node();
-        node.value=nodeValue;
-        node.next=null;
-        node.previous=null;
-        head=node;
-        tail=node;
+        Node node1=new Node();
+        node1.value=nodeValue;
+        node1.next=null;
+        node1.previous=null;
+        head=node1;
+        tail=node1;
         size=1;
         System.out.println("Double LinkedList Created");
         return head;
